@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{ED354A58-77D9-481F-BACC-401BD73A8438}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>stutter_stock</RootNamespace>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Console</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="about.php" />
+    <None Include="admin\.vs\admin\v17\.suo" />
+    <None Include="admin\.vs\slnx.sqlite" />
+    <None Include="admin\.vs\VSWorkspaceState.json" />
+    <None Include="admin\edit.php" />
+    <None Include="admin\editsql.php" />
+    <None Include="admin\list.php" />
+    <None Include="admin\logout.php" />
+    <None Include="admin\menu.php" />
+    <None Include="admin\session.php" />
+    <None Include="admin\updatelist.php" />
+    <None Include="admin\updatesql.php" />
+    <None Include="admin\upload.php" />
+    <None Include="cart\addtocart.php" />
+    <None Include="cart\cartdetail.php" />
+    <None Include="cart\delete.php" />
+    <None Include="cart\menu.php" />
+    <None Include="contact.php" />
+    <None Include="cssandjs\css\bootstrap-grid.css.map" />
+    <None Include="cssandjs\css\bootstrap-grid.min.css.map" />
+    <None Include="cssandjs\css\bootstrap-reboot.css.map" />
+    <None Include="cssandjs\css\bootstrap-reboot.min.css.map" />
+    <None Include="cssandjs\css\bootstrap.css.map" />
+    <None Include="cssandjs\css\bootstrap.min.css.map" />
+    <None Include="cssandjs\js\bootstrap.bundle.js.map" />
+    <None Include="cssandjs\js\bootstrap.bundle.min.js.map" />
+    <None Include="cssandjs\js\bootstrap.js.map" />
+    <None Include="cssandjs\js\bootstrap.min.js.map" />
+    <None Include="form\adminform.php" />
+    <None Include="form\login.php" />
+    <None Include="form\menu.php" />
+    <None Include="form\register.php" />
+    <None Include="homepage.php" />
+    <None Include="img\logo.psd" />
+    <None Include="logout.php" />
+    <None Include="menu.php" />
+    <None Include="payment\menu.php" />
+    <None Include="payment\payment_homepg.php" />
+    <None Include="sql\adminformsql.php" />
+    <None Include="sql\imgupload.php" />
+    <None Include="sql\loginsql.php" />
+    <None Include="sql\regsql.php" />
+    <None Include="user_profile\menu.php" />
+    <None Include="user_profile\profile.php" />
+    <None Include="user_profile\profilesql.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="cssandjs\css\bootstrap-grid.css" />
+    <Content Include="cssandjs\css\bootstrap-grid.min.css" />
+    <Content Include="cssandjs\css\bootstrap-reboot.css" />
+    <Content Include="cssandjs\css\bootstrap-reboot.min.css" />
+    <Content Include="cssandjs\css\bootstrap.css" />
+    <Content Include="cssandjs\css\bootstrap.min.css" />
+    <Content Include="cssandjs\js\bootstrap.bundle.js" />
+    <Content Include="cssandjs\js\bootstrap.bundle.min.js" />
+    <Content Include="cssandjs\js\bootstrap.js" />
+    <Content Include="cssandjs\js\bootstrap.min.js" />
+    <Content Include="cssfile\projectcss.css" />
+    <Content Include="icon\fb.png" />
+    <Content Include="icon\g.png" />
+    <Content Include="icon\pin.jpg" />
+    <Content Include="icon\red.png" />
+    <Content Include="icon\tw.png" />
+    <Content Include="img\about.jpg" />
+    <Content Include="img\bloom.jpg" />
+    <Content Include="img\blue.jpg" />
+    <Content Include="img\buglogo.png" />
+    <Content Include="img\cactus.jpg" />
+    <Content Include="img\CARTBG1.jpg" />
+    <Content Include="img\cloud.jpg" />
+    <Content Include="img\desk.jpg" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\logopic.png" />
+    <Content Include="img\mini.jpg" />
+    <Content Include="img\nature.jpg" />
+    <Content Include="img\new.jpg" />
+    <Content Include="img\pink.jpg" />
+    <Content Include="jquery-3.4.1.min.js" />
+    <Content Include="uploaded_img\1.jpeg" />
+    <Content Include="uploaded_img\2.jpg" />
+    <Content Include="uploaded_img\4.jpg" />
+    <Content Include="uploaded_img\5.jpg" />
+    <Content Include="uploaded_img\abstract.jpg" />
+    <Content Include="uploaded_img\animal.jpg" />
+    <Content Include="uploaded_img\arch.jpg" />
+    <Content Include="uploaded_img\art.jpg" />
+    <Content Include="uploaded_img\beach.jpg" />
+    <Content Include="uploaded_img\berries.jpg" />
+    <Content Include="uploaded_img\beverage.jpg" />
+    <Content Include="uploaded_img\bg.jpg" />
+    <Content Include="uploaded_img\bg3.jpeg" />
+    <Content Include="uploaded_img\black.jpg" />
+    <Content Include="uploaded_img\building.jpg" />
+    <Content Include="uploaded_img\business.jpg" />
+    <Content Include="uploaded_img\butterfly.jpg" />
+    <Content Include="uploaded_img\cabin.jpg" />
+    <Content Include="uploaded_img\close-up.jpg" />
+    <Content Include="uploaded_img\coffee.jpg" />
+    <Content Include="uploaded_img\couple.jpg" />
+    <Content Include="uploaded_img\dark.jpg" />
+    <Content Include="uploaded_img\lamp.jpg" />
+    <Content Include="uploaded_img\main1.jpg" />
+    <Content Include="uploaded_img\map.jpg" />
+    <Content Include="uploaded_img\music.jpg" />
+    <Content Include="uploaded_img\paris.jpg" />
+    <Content Include="uploaded_img\pc.jpg" />
+    <Content Include="uploaded_img\rock.jpg" />
+    <Content Include="uploaded_img\sand.jpg" />
+    <Content Include="uploaded_img\sidewalk.jpg" />
+    <Content Include="uploaded_img\walking.jpg" />
+    <Content Include="uploaded_img\woman.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\stutter_stock\v17\" />
+    <Folder Include="My Project\" />
+    <Folder Include="profile_pic_folder\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
